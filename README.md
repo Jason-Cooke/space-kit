@@ -14,6 +14,7 @@
   - [Colors](#Colors)
   - [Icons](#Icons)
   - [Typography](#Typography)
+  - [Buttons](#Buttons)
 - [Developing Space Kit](#Developing-Space-Kit)
   - [Icons](#Icons-1)
   - [TypeScript](#TypeScript)
@@ -200,6 +201,21 @@ export const IconServiceItem: React.FC = () => (
     <IconServices className="w-full h-full text-teal" />
   </div>
 );
+```
+
+### Buttons
+
+Zeplin: https://zpl.io/amdN6Pr
+
+This is our style system for buttons. This is intended to be used to create your project's style guide (as opposed to using this component directly in your project).
+
+#### Example
+
+```js
+import React from 'react';
+import { Button } from '@apollo/space-kit/Button';
+
+
 ```
 
 #### FAQ
